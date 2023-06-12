@@ -18,3 +18,25 @@ This is our Project for the CSE472s Artificial Intelligence Course.
 - Stability.
 
 All of these Heuristics were taken from [this paper](https://courses.cs.washington.edu/courses/cse573/04au/Project/mini1/RUSSIA/Final_Paper.pdf).
+## Manual
+### Main Menu
+![](Screenshots/main.png)
+
+Choose The Desired Game Mode.
+### Human Vs Ai Menu
+![](Screenshots/one.png)
+
+- Choose the Difficulty of the Ai Player.
+- Press Back to return to main Menu.
+### Ai Vs Ai Menu
+![](Screenshots/two.png)
+
+- Choose the Difficulty of the Two Ai Players.
+- Press Back to return to main Menu.
+### Game Window
+![](Screenshots/game.png)
+
+- Available Moves are Highlighted. 
+- Press Any Available Move to Play.
+- Turn, Current Scores and Total Scores are all Displayed on the Top.
+- Press Back to return to Main Menu.
