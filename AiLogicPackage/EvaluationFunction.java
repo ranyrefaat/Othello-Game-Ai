@@ -4,6 +4,11 @@ import Classes.UtilityPackage.UtilityFunctions;
 
 public class EvaluationFunction {
 
+    public int evaluateHeuristics(int[][] board, int player){
+        //Weights are written with respect to the paper of heuristics in the project pdf description.
+        return 5*mobility(board, player) + 25*coinParity(board, player) + 30*cornersCaptured(board, player) + 25*stability(board, player);
+    }
+
     public static int cornersCaptured(int[][] board, int player){
         int opponent = (player==1) ? 2 : 1;
 
